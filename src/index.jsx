@@ -220,6 +220,7 @@ class GitHubWidget extends React.Component {
 }
 
 GitHubWidget.propTypes = {
+  /** The GitHub repository to display information about in "username/project" format. */
   repository: PropTypes.string.isRequired,
 };
 

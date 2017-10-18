@@ -2,13 +2,15 @@
   "name": "react-github-widget",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "jest --coverage src/*.spec.js",
+    "test": "npm run lint && npm run jest",
+    "jest": "jest --coverage src/*.spec.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -o docs",
     "build": "babel src -d lib",
-    "lint": "eslint --ext .js --ext .jsx ."
+    "lint": "eslint --ext .js --ext .jsx .",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "MIT",
@@ -22,6 +24,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-info": "^3.2.12",
     "@storybook/addon-links": "^3.2.12",
     "@storybook/react": "^3.2.12",
     "babel-cli": "^6.26.0",
