@@ -1,0 +1,13 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "add-module-exports"
+  ],
+  "env": {
+    "production": {
+      "ignore": [
+        "**/*.spec.js"
+      ],
+    },
+  },
+}

@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Correctly 1`] = `
+.c0 {
+  font-family: helvetica,arial,sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  color: #666;
+  border-radius: 3px;
+}
+
+.c1 {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  border-radius: 3px 3px 0 0;
+  background: #fcfcfc;
+  background: linear-gradient(#fcfcfc,#ebebeb);
+}
+
+.c1 h3 {
+  word-wrap: break-word;
+  font-family: helvetica,arial,sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: gray;
+  margin: 0;
+  padding: 10px 10px 10px 30px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAXBAMAAAD0LQLXAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAASUExURQAAAL29vc3NzcLCwsjIyNbW1pvTNOEAAAABdFJOUwBA5thmAAAATElEQVQI12MIFoQAEQZFYwcGEGBkUDRUQLCcsYjRXhbqKkEGZQYGqJgSnKXCwGgsAGYpqyobG4WGhioyhBhDgClI3EQAqpaZwQBEAQARmA4G2o55nQAAAABJRU5ErkJggg==) 7px center no-repeat;
+  width: auto;
+}
+
+.c4 {
+  float: right;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 21px;
+  height: auto;
+  min-height: 21px;
+}
+
+.c2 {
+  color: #4183c4;
+  border: 0;
+  text-decoration: none;
+}
+
+.c3 {
+  color: #4183c4;
+  border: 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c5 {
+  color: #4183c4;
+  border: 0;
+  text-decoration: none;
+  display: inline-block;
+  height: 21px;
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0 5px 0 18px;
+  background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqBAMAAABB12bjAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURf///5mZmdbW1u/v7/r6+rGxscXFxaSkpHLccIMAAABsSURBVBjTY2CgBmBODTOAsFgSi9TFHMBMc1Fmk8BiEItJUMhQWFFQAZXJoC7q7FJYhNBmgG7YQAIWMYTvEExXIbh8oAJWQQe4IGsIlKmowAZVwaKowgxlMgkKmwtCjRAUYBSEqnVkYBAm39EALMwNXwql3eYAAAAASUVORK5CYII=) no-repeat;
+  border-right: 1px solid #ddd;
+}
+
+.c6 {
+  color: #4183c4;
+  border: 0;
+  text-decoration: none;
+  display: inline-block;
+  height: 21px;
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0 5px 0 18px;
+  background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqBAMAAABB12bjAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURf///5mZmdbW1u/v7/r6+rGxscXFxaSkpHLccIMAAABsSURBVBjTY2CgBmBODTOAsFgSi9TFHMBMc1Fmk8BiEItJUMhQWFFQAZXJoC7q7FJYhNBmgG7YQAIWMYTvEExXIbh8oAJWQQe4IGsIlKmowAZVwaKowgxlMgkKmwtCjRAUYBSEqnVkYBAm39EALMwNXwql3eYAAAAASUVORK5CYII=) no-repeat;
+  background-position: -4px -21px;
+  padding-left: 15px;
+}
+
+.c7 {
+  padding: 10px;
+  font-weight: 300;
+}
+
+.c7 > p {
+  margin: 0;
+}
+
+.c8 {
+  position: relative;
+  border-top: 1px solid #ddd;
+  background: white;
+  border-radius: 0 0 3px 3px;
+  padding: 10px;
+  height: auto;
+  min-height: 24px;
+}
+
+.c9 {
+  word-wrap: break-word;
+  margin: 0;
+  font-size: 11px;
+  color: #666;
+  line-height: 24px;
+  font-weight: 300;
+  width: auto;
+}
+
+.c9 strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.c10 {
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #666;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  background: #f5f5f5;
+  background: linear-gradient(#f5f5f5,#e5e5e5);
+  cursor: pointer;
+}
+
+.c10:hover {
+  color: #527894;
+  border-color: #cfe3ed;
+  border-bottom-color: #9fc7db;
+  background: #f1f7fa;
+  background: linear-gradient(#f1f7fa,#dbeaf1);
+}
+
+@media (max-width:767px) {
+  .c1 {
+    height: auto;
+    min-height: 60px;
+  }
+}
+
+@media (max-width:767px) {
+  .c3 {
+    display: block;
+  }
+}
+
+@media (max-width:767px) {
+  .c5 {
+    display: block;
+    clear: right;
+    float: right;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    display: block;
+    clear: right;
+    float: right;
+  }
+}
+
+@media (max-width:767px) {
+  .c8 {
+    height: auto;
+    min-height: 46px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    top: 32px;
+  }
+}
+
+<GitHubWidget
+  repository="octalmage/react-github-widget"
+>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <h3>
+            <styled.a
+              href="http://github.com/octalmage"
+              title="http://github.com/octalmage"
+            >
+              <a
+                className="c2"
+                href="http://github.com/octalmage"
+                title="http://github.com/octalmage"
+              >
+                octalmage
+              </a>
+            </styled.a>
+            /
+            <styled.a
+              href="http://github.com/octalmage/react-github-widget"
+              title="http://github.com/octalmage/react-github-widget"
+            >
+              <a
+                className="c3"
+                href="http://github.com/octalmage/react-github-widget"
+                title="http://github.com/octalmage/react-github-widget"
+              >
+                react-github-widget
+              </a>
+            </styled.a>
+          </h3>
+          <styled.div>
+            <div
+              className="c4"
+            >
+              <styled.a
+                href="http://github.com/octalmage/react-github-widget/watchers"
+                title="See watchers"
+              >
+                <a
+                  className="c5"
+                  href="http://github.com/octalmage/react-github-widget/watchers"
+                  title="See watchers"
+                >
+                  500000
+                </a>
+              </styled.a>
+              <styled.a
+                href="http://github.com/octalmage/react-github-widget/network/members"
+                title="See forkers"
+              >
+                <a
+                  className="c6"
+                  href="http://github.com/octalmage/react-github-widget/network/members"
+                  title="See forkers"
+                >
+                  10000
+                </a>
+              </styled.a>
+            </div>
+          </styled.div>
+        </div>
+      </styled.div>
+      <styled.div>
+        <div
+          className="c7"
+        >
+          <p
+            className="description"
+          >
+            <span>
+              This is the repo description.
+            </span>
+             — 
+            <styled.a
+              href="http://github.com/octalmage/react-github-widget#readme"
+            >
+              <a
+                className="c2"
+                href="http://github.com/octalmage/react-github-widget#readme"
+              >
+                Read More
+              </a>
+            </styled.a>
+          </p>
+        </div>
+      </styled.div>
+      <styled.div>
+        <div
+          className="c8"
+        >
+          <styled.div>
+            <div
+              className="c9"
+            >
+              Latest commit to the
+               
+              <strong>
+                master
+              </strong>
+               branch on 
+              2017-10-18
+            </div>
+          </styled.div>
+          <styled.div
+            href="http://github.com/octalmage/react-github-widget/zipball/master"
+            title="Get repository"
+          >
+            <div
+              className="c10"
+              href="http://github.com/octalmage/react-github-widget/zipball/master"
+              title="Get repository"
+            >
+              Download as zip
+            </div>
+          </styled.div>
+        </div>
+      </styled.div>
+    </div>
+  </styled.div>
+</GitHubWidget>
+`;
