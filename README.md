@@ -6,4 +6,8 @@
 
 ## Based on
 
-https://github.com/JoelSutherland/GitHub-jQuery-Repo-Widget
+[JoelSutherland/GitHub-jQuery-Repo-Widget](https://github.com/JoelSutherland/GitHub-jQuery-Repo-Widget)
+
+## License
+
+MIT
