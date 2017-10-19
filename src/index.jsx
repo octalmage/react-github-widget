@@ -161,18 +161,32 @@ class GitHubWidget extends React.Component {
   constructor(props) {
     super(props);
 
+    let repo = {
+      watchers: '?',
+      forks: '?',
+    };
+
+    // Allow preloading data.
+    if (this.props.data) {
+      repo = this.props.data;
+    }
+
     this.state = {
-      repo: {
-        watchers: '?',
-        forks: '?',
-      },
+      repo,
     };
   }
 
   componentDidMount() {
+    const { data, onDataFetched } = this.props;
+    if (data) {
+      return Promise.resolve();
+    }
+
     return FetchGithubRepo(this.props.repository)
       .then((repo) => {
         this.setState({ repo });
+        typeof onDataFetched === 'function' && onDataFetched(repo); // eslint-disable-line no-unused-expressions
+        return repo;
       })
       .catch((error) => {
         console.error(error); // eslint-disable-line no-console
@@ -222,6 +236,21 @@ class GitHubWidget extends React.Component {
 GitHubWidget.propTypes = {
   /** The GitHub repository to display information about in "username/project" format. */
   repository: PropTypes.string.isRequired,
+  /** Use this to load the repository data externally. */
+  data: PropTypes.shape({
+    watchers: PropTypes.number,
+    forks: PropTypes.number,
+    homepage: PropTypes.string,
+    description: PropTypes.string,
+    pushed_at: PropTypes.string,
+  }),
+  /** Called with the response from GitHub. */
+  onDataFetched: PropTypes.func,
+};
+
+GitHubWidget.defaultProps = {
+  data: undefined,
+  onDataFetched: undefined,
 };
 
 export default GitHubWidget;
