@@ -19,14 +19,16 @@
   "author": "Jason Stallings",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^4.9.0",
     "fetch-everywhere": "^1.0.5",
     "prop-types": "^15.6.0",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
     "styled-components": "^2.2.1"
   },
+  "peerDependencies": {
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  },
   "devDependencies": {
+    "eslint": "^4.9.0",
     "@storybook/addon-actions": "^3.2.12",
     "@storybook/addon-info": "^3.2.12",
     "@storybook/addon-links": "^3.2.12",
