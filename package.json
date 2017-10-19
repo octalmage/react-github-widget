@@ -1,7 +1,7 @@
 {
   "name": "react-github-widget",
   "version": "0.0.1",
-  "description": "",
+  "description": "A good looking GitHub repository widget to add to your website.",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint && npm run jest",
@@ -12,7 +12,11 @@
     "lint": "eslint --ext .js --ext .jsx .",
     "prepublish": "npm run build"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octalmage/react-github-widget.git"
+  },
+  "author": "Jason Stallings",
   "license": "MIT",
   "dependencies": {
     "eslint": "^4.9.0",
