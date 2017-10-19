@@ -8,7 +8,7 @@
     "jest": "jest --coverage src/*.spec.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs",
-    "build": "babel src -d lib",
+    "build": "mkdir -p lib && babel src/index.jsx --out-file ./lib/index.js -s",
     "lint": "eslint --ext .js --ext .jsx .",
     "prepublish": "npm run build"
   },
