@@ -6,7 +6,9 @@
   "env": {
     "production": {
       "ignore": [
-        "**/*.spec.js"
+        "**/*.spec.js",
+        "**/__mocks__/*",
+        "**/__snapshot__/*",
       ],
     },
   },

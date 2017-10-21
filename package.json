@@ -8,7 +8,7 @@
     "jest": "jest --coverage src/*.spec.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs",
-    "build": "mkdir -p lib && babel src/index.jsx --out-file ./lib/index.js -s",
+    "build": "BABEL_ENV=production babel src --out-dir lib -s",
     "lint": "eslint --ext .js --ext .jsx .",
     "prepublish": "npm run build"
   },
@@ -45,7 +45,9 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
     "jest": "^21.2.1",
-    "jest-styled-components": "^4.7.0"
+    "jest-styled-components": "^4.7.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
   },
   "jest": {
     "setupFiles": [

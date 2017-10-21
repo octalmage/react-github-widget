@@ -202,7 +202,7 @@ class GitHubWidget extends React.Component {
 
     return (
       <GithubBox>
-        <GitHubTitle>
+        <GitHubTitle className="github-box-title">
           <h3>
             <Link href={vendorUrl} title={vendorUrl}>{vendorName}</Link>
             /

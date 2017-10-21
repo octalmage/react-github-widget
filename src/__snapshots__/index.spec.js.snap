@@ -198,9 +198,11 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
     <div
       className="c0"
     >
-      <styled.div>
+      <styled.div
+        className="github-box-title"
+      >
         <div
-          className="c1"
+          className="github-box-title c1"
         >
           <h3>
             <styled.a
@@ -532,9 +534,11 @@ exports[`Renders preloaded data correctly. 1`] = `
     <div
       className="c0"
     >
-      <styled.div>
+      <styled.div
+        className="github-box-title"
+      >
         <div
-          className="c1"
+          className="github-box-title c1"
         >
           <h3>
             <styled.a
