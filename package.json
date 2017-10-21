@@ -1,6 +1,6 @@
 {
   "name": "react-github-widget",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A good looking GitHub repository widget to add to your website.",
   "main": "lib/index.js",
   "scripts": {
