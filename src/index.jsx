@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'; // eslint-disable-line
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import 'fetch-everywhere';
 import FetchGithubRepo from './FetchGithubRepo';
 
 const GithubBox = styled.div`
+&&& {
   font-family: helvetica, arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -12,9 +12,11 @@ const GithubBox = styled.div`
   border: 1px solid #ddd;
   color: #666;
   border-radius: 3px
+}
 `;
 
 const GitHubTitle = styled.div`
+&&& {
   position: relative;
   border-bottom: 1px solid #ddd;
   border-radius: 3px 3px 0 0;
@@ -35,9 +37,11 @@ const GitHubTitle = styled.div`
     height: auto;
     min-height: 60px;
   }
+}
 `;
 
 const GitHubStats = styled.div`
+&&& {
   float: right;
   position: absolute;
   top: 8px;
@@ -47,22 +51,28 @@ const GitHubStats = styled.div`
   line-height: 21px;
   height: auto;
   min-height: 21px
+}
 `;
 
 const Link = styled.a`
+&&& {
   color: #4183c4;
   border: 0;
   text-decoration: none;
+}
 `;
 
 const RepoLink = Link.extend`
+&&& {
   font-weight: bold;
   @media (max-width: 767px) {
     display: block;
   }
+}
 `;
 
 const StatsLink = Link.extend`
+&&& {
   display: inline-block;
   height: 21px;
   color: #666;
@@ -75,30 +85,40 @@ const StatsLink = Link.extend`
     clear: right;
     float: right;
   }
+}
 `;
 
 const WatchersLink = StatsLink.extend`
+&&& {
   border-right: 1px solid #ddd;
+}
 `;
 
 const ForkersLink = StatsLink.extend`
+&&& {
   background-position: -4px -21px;
   padding-left: 15px
+}
 `;
 
 const GitHubContent = styled.div`
+&&& {
   padding: 10px;
   font-weight: 300;
   & > p {
     margin: 0;
   }
+}
 `;
 
 const GitHubContentLink = styled.p`
+&&& {
   font-weight: bold;
+}
 `;
 
 const Download = styled.div`
+&&& {
   position: relative;
   border-top: 1px solid #ddd;
   background: white;
@@ -110,9 +130,11 @@ const Download = styled.div`
     height: auto;
     min-height: 46px;
   }
+}
 `;
 
 const Updated = styled.div`
+&&& {
   word-wrap: break-word;
   margin: 0;
   font-size: 11px;
@@ -124,9 +146,11 @@ const Updated = styled.div`
     font-weight: bold;
     color: #000;
   }
+}
 `;
 
 const DownloadButton = styled.div`
+&&& {
   float: right;
   position: absolute;
   top: 10px;
@@ -151,10 +175,7 @@ const DownloadButton = styled.div`
     background: #f1f7fa;
     background: linear-gradient(#f1f7fa, #dbeaf1);
   }
-
-  @media (max-width: 767px) {
-    top: 32px;
-  }
+}
 `;
 
 class GitHubWidget extends React.Component {
