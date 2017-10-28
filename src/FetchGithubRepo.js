@@ -1,3 +1,5 @@
+import 'fetch-everywhere';
+
 const FetchGithubRepo = repository =>
   fetch(`https://api.github.com/repos/${repository}`)
     .then((response) => {

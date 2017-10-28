@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Calls onDataFetched with GitHub response. 1`] = `
-.c0 {
+.c0.c0.c0 {
   font-family: helvetica,arial,sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -11,7 +11,7 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   border-radius: 3px;
 }
 
-.c1 {
+.c1.c1.c1 {
   position: relative;
   border-bottom: 1px solid #ddd;
   border-radius: 3px 3px 0 0;
@@ -19,7 +19,7 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   background: linear-gradient(#fcfcfc,#ebebeb);
 }
 
-.c1 h3 {
+.c1.c1.c1 h3 {
   word-wrap: break-word;
   font-family: helvetica,arial,sans-serif;
   font-weight: normal;
@@ -31,7 +31,7 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   width: auto;
 }
 
-.c4 {
+.c4.c4.c4 {
   float: right;
   position: absolute;
   top: 8px;
@@ -43,23 +43,29 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   min-height: 21px;
 }
 
-.c2 {
+.c2.c2.c2 {
   color: #4183c4;
   border: 0;
   text-decoration: none;
 }
 
-.c3 {
+.c3.c3.c3 {
   color: #4183c4;
   border: 0;
   text-decoration: none;
+}
+
+.c3.c3.c3 {
   font-weight: bold;
 }
 
-.c5 {
+.c5.c5.c5 {
   color: #4183c4;
   border: 0;
   text-decoration: none;
+}
+
+.c5.c5.c5 {
   display: inline-block;
   height: 21px;
   color: #666;
@@ -67,13 +73,19 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   border-radius: 3px;
   padding: 0 5px 0 18px;
   background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqBAMAAABB12bjAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURf///5mZmdbW1u/v7/r6+rGxscXFxaSkpHLccIMAAABsSURBVBjTY2CgBmBODTOAsFgSi9TFHMBMc1Fmk8BiEItJUMhQWFFQAZXJoC7q7FJYhNBmgG7YQAIWMYTvEExXIbh8oAJWQQe4IGsIlKmowAZVwaKowgxlMgkKmwtCjRAUYBSEqnVkYBAm39EALMwNXwql3eYAAAAASUVORK5CYII=) no-repeat;
+}
+
+.c5.c5.c5 {
   border-right: 1px solid #ddd;
 }
 
-.c6 {
+.c6.c6.c6 {
   color: #4183c4;
   border: 0;
   text-decoration: none;
+}
+
+.c6.c6.c6 {
   display: inline-block;
   height: 21px;
   color: #666;
@@ -81,20 +93,23 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   border-radius: 3px;
   padding: 0 5px 0 18px;
   background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqBAMAAABB12bjAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURf///5mZmdbW1u/v7/r6+rGxscXFxaSkpHLccIMAAABsSURBVBjTY2CgBmBODTOAsFgSi9TFHMBMc1Fmk8BiEItJUMhQWFFQAZXJoC7q7FJYhNBmgG7YQAIWMYTvEExXIbh8oAJWQQe4IGsIlKmowAZVwaKowgxlMgkKmwtCjRAUYBSEqnVkYBAm39EALMwNXwql3eYAAAAASUVORK5CYII=) no-repeat;
+}
+
+.c6.c6.c6 {
   background-position: -4px -21px;
   padding-left: 15px;
 }
 
-.c7 {
+.c7.c7.c7 {
   padding: 10px;
   font-weight: 300;
 }
 
-.c7 > p {
+.c7.c7.c7 > p {
   margin: 0;
 }
 
-.c8 {
+.c8.c8.c8 {
   position: relative;
   border-top: 1px solid #ddd;
   background: white;
@@ -104,7 +119,7 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   min-height: 24px;
 }
 
-.c9 {
+.c9.c9.c9 {
   word-wrap: break-word;
   margin: 0;
   font-size: 11px;
@@ -114,12 +129,12 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   width: auto;
 }
 
-.c9 strong {
+.c9.c9.c9 strong {
   font-weight: bold;
   color: #000;
 }
 
-.c10 {
+.c10.c10.c10 {
   float: right;
   position: absolute;
   top: 10px;
@@ -139,7 +154,7 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   cursor: pointer;
 }
 
-.c10:hover {
+.c10.c10.c10:hover {
   color: #527894;
   border-color: #cfe3ed;
   border-bottom-color: #9fc7db;
@@ -148,28 +163,20 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
 }
 
 @media (max-width:767px) {
-  .c1 {
+  .c1.c1.c1 {
     height: auto;
     min-height: 60px;
   }
 }
 
 @media (max-width:767px) {
-  .c3 {
+  .c3.c3.c3 {
     display: block;
   }
 }
 
 @media (max-width:767px) {
-  .c5 {
-    display: block;
-    clear: right;
-    float: right;
-  }
-}
-
-@media (max-width:767px) {
-  .c6 {
+  .c5.c5.c5 {
     display: block;
     clear: right;
     float: right;
@@ -177,15 +184,17 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
 }
 
 @media (max-width:767px) {
-  .c8 {
+  .c6.c6.c6 {
+    display: block;
+    clear: right;
+    float: right;
+  }
+}
+
+@media (max-width:767px) {
+  .c8.c8.c8 {
     height: auto;
     min-height: 46px;
-  }
-}
-
-@media (max-width:767px) {
-  .c10 {
-    top: 32px;
   }
 }
 
@@ -324,7 +333,7 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
 `;
 
 exports[`Renders preloaded data correctly. 1`] = `
-.c0 {
+.c0.c0.c0 {
   font-family: helvetica,arial,sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -334,7 +343,7 @@ exports[`Renders preloaded data correctly. 1`] = `
   border-radius: 3px;
 }
 
-.c1 {
+.c1.c1.c1 {
   position: relative;
   border-bottom: 1px solid #ddd;
   border-radius: 3px 3px 0 0;
@@ -342,7 +351,7 @@ exports[`Renders preloaded data correctly. 1`] = `
   background: linear-gradient(#fcfcfc,#ebebeb);
 }
 
-.c1 h3 {
+.c1.c1.c1 h3 {
   word-wrap: break-word;
   font-family: helvetica,arial,sans-serif;
   font-weight: normal;
@@ -354,7 +363,7 @@ exports[`Renders preloaded data correctly. 1`] = `
   width: auto;
 }
 
-.c4 {
+.c4.c4.c4 {
   float: right;
   position: absolute;
   top: 8px;
@@ -366,23 +375,29 @@ exports[`Renders preloaded data correctly. 1`] = `
   min-height: 21px;
 }
 
-.c2 {
+.c2.c2.c2 {
   color: #4183c4;
   border: 0;
   text-decoration: none;
 }
 
-.c3 {
+.c3.c3.c3 {
   color: #4183c4;
   border: 0;
   text-decoration: none;
+}
+
+.c3.c3.c3 {
   font-weight: bold;
 }
 
-.c5 {
+.c5.c5.c5 {
   color: #4183c4;
   border: 0;
   text-decoration: none;
+}
+
+.c5.c5.c5 {
   display: inline-block;
   height: 21px;
   color: #666;
@@ -390,13 +405,19 @@ exports[`Renders preloaded data correctly. 1`] = `
   border-radius: 3px;
   padding: 0 5px 0 18px;
   background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqBAMAAABB12bjAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURf///5mZmdbW1u/v7/r6+rGxscXFxaSkpHLccIMAAABsSURBVBjTY2CgBmBODTOAsFgSi9TFHMBMc1Fmk8BiEItJUMhQWFFQAZXJoC7q7FJYhNBmgG7YQAIWMYTvEExXIbh8oAJWQQe4IGsIlKmowAZVwaKowgxlMgkKmwtCjRAUYBSEqnVkYBAm39EALMwNXwql3eYAAAAASUVORK5CYII=) no-repeat;
+}
+
+.c5.c5.c5 {
   border-right: 1px solid #ddd;
 }
 
-.c6 {
+.c6.c6.c6 {
   color: #4183c4;
   border: 0;
   text-decoration: none;
+}
+
+.c6.c6.c6 {
   display: inline-block;
   height: 21px;
   color: #666;
@@ -404,24 +425,27 @@ exports[`Renders preloaded data correctly. 1`] = `
   border-radius: 3px;
   padding: 0 5px 0 18px;
   background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqBAMAAABB12bjAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURf///5mZmdbW1u/v7/r6+rGxscXFxaSkpHLccIMAAABsSURBVBjTY2CgBmBODTOAsFgSi9TFHMBMc1Fmk8BiEItJUMhQWFFQAZXJoC7q7FJYhNBmgG7YQAIWMYTvEExXIbh8oAJWQQe4IGsIlKmowAZVwaKowgxlMgkKmwtCjRAUYBSEqnVkYBAm39EALMwNXwql3eYAAAAASUVORK5CYII=) no-repeat;
+}
+
+.c6.c6.c6 {
   background-position: -4px -21px;
   padding-left: 15px;
 }
 
-.c7 {
+.c7.c7.c7 {
   padding: 10px;
   font-weight: 300;
 }
 
-.c7 > p {
+.c7.c7.c7 > p {
   margin: 0;
 }
 
-.c8 {
+.c8.c8.c8 {
   font-weight: bold;
 }
 
-.c9 {
+.c9.c9.c9 {
   position: relative;
   border-top: 1px solid #ddd;
   background: white;
@@ -431,7 +455,7 @@ exports[`Renders preloaded data correctly. 1`] = `
   min-height: 24px;
 }
 
-.c10 {
+.c10.c10.c10 {
   word-wrap: break-word;
   margin: 0;
   font-size: 11px;
@@ -441,12 +465,12 @@ exports[`Renders preloaded data correctly. 1`] = `
   width: auto;
 }
 
-.c10 strong {
+.c10.c10.c10 strong {
   font-weight: bold;
   color: #000;
 }
 
-.c11 {
+.c11.c11.c11 {
   float: right;
   position: absolute;
   top: 10px;
@@ -466,7 +490,7 @@ exports[`Renders preloaded data correctly. 1`] = `
   cursor: pointer;
 }
 
-.c11:hover {
+.c11.c11.c11:hover {
   color: #527894;
   border-color: #cfe3ed;
   border-bottom-color: #9fc7db;
@@ -475,28 +499,20 @@ exports[`Renders preloaded data correctly. 1`] = `
 }
 
 @media (max-width:767px) {
-  .c1 {
+  .c1.c1.c1 {
     height: auto;
     min-height: 60px;
   }
 }
 
 @media (max-width:767px) {
-  .c3 {
+  .c3.c3.c3 {
     display: block;
   }
 }
 
 @media (max-width:767px) {
-  .c5 {
-    display: block;
-    clear: right;
-    float: right;
-  }
-}
-
-@media (max-width:767px) {
-  .c6 {
+  .c5.c5.c5 {
     display: block;
     clear: right;
     float: right;
@@ -504,15 +520,17 @@ exports[`Renders preloaded data correctly. 1`] = `
 }
 
 @media (max-width:767px) {
-  .c9 {
+  .c6.c6.c6 {
+    display: block;
+    clear: right;
+    float: right;
+  }
+}
+
+@media (max-width:767px) {
+  .c9.c9.c9 {
     height: auto;
     min-height: 46px;
-  }
-}
-
-@media (max-width:767px) {
-  .c11 {
-    top: 32px;
   }
 }
 
