@@ -1,4 +1,4 @@
-# React GitHub Widget
+# React GitHub Widget [![Build Status](https://travis-ci.org/octalmage/react-github-widget.svg?branch=master)](https://travis-ci.org/octalmage/react-github-widget)
 
 ![](react-github-widget.png)
 
