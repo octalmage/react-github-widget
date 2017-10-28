@@ -145,6 +145,7 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
   color: #666;
   font-weight: bold;
   text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+  text-decoration: none;
   padding: 0 10px;
   border: 1px solid #ddd;
   border-bottom-color: #bbb;
@@ -221,6 +222,8 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
               <a
                 className="c2"
                 href="http://github.com/octalmage"
+                rel="noreferrer noopener"
+                target="_blank"
                 title="http://github.com/octalmage"
               >
                 octalmage
@@ -234,6 +237,8 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
               <a
                 className="c3"
                 href="http://github.com/octalmage/react-github-widget"
+                rel="noreferrer noopener"
+                target="_blank"
                 title="http://github.com/octalmage/react-github-widget"
               >
                 react-github-widget
@@ -251,6 +256,8 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
                 <a
                   className="c5"
                   href="http://github.com/octalmage/react-github-widget/watchers"
+                  rel="noreferrer noopener"
+                  target="_blank"
                   title="See watchers"
                 >
                   500000
@@ -263,6 +270,8 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
                 <a
                   className="c6"
                   href="http://github.com/octalmage/react-github-widget/network/members"
+                  rel="noreferrer noopener"
+                  target="_blank"
                   title="See forkers"
                 >
                   10000
@@ -289,6 +298,8 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
               <a
                 className="c2"
                 href="http://github.com/octalmage/react-github-widget#readme"
+                rel="noreferrer noopener"
+                target="_blank"
               >
                 Read More
               </a>
@@ -313,18 +324,18 @@ exports[`Calls onDataFetched with GitHub response. 1`] = `
               2017-10-18
             </div>
           </styled.div>
-          <styled.div
+          <styled.a
             href="http://github.com/octalmage/react-github-widget/zipball/master"
             title="Get repository"
           >
-            <div
+            <a
               className="c10"
               href="http://github.com/octalmage/react-github-widget/zipball/master"
               title="Get repository"
             >
               Download as zip
-            </div>
-          </styled.div>
+            </a>
+          </styled.a>
         </div>
       </styled.div>
     </div>
@@ -481,6 +492,7 @@ exports[`Renders preloaded data correctly. 1`] = `
   color: #666;
   font-weight: bold;
   text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+  text-decoration: none;
   padding: 0 10px;
   border: 1px solid #ddd;
   border-bottom-color: #bbb;
@@ -566,6 +578,8 @@ exports[`Renders preloaded data correctly. 1`] = `
               <a
                 className="c2"
                 href="http://github.com/fake"
+                rel="noreferrer noopener"
+                target="_blank"
                 title="http://github.com/fake"
               >
                 fake
@@ -579,6 +593,8 @@ exports[`Renders preloaded data correctly. 1`] = `
               <a
                 className="c3"
                 href="http://github.com/fake/preloaded-repo"
+                rel="noreferrer noopener"
+                target="_blank"
                 title="http://github.com/fake/preloaded-repo"
               >
                 preloaded-repo
@@ -596,6 +612,8 @@ exports[`Renders preloaded data correctly. 1`] = `
                 <a
                   className="c5"
                   href="http://github.com/fake/preloaded-repo/watchers"
+                  rel="noreferrer noopener"
+                  target="_blank"
                   title="See watchers"
                 >
                   12302134987
@@ -608,6 +626,8 @@ exports[`Renders preloaded data correctly. 1`] = `
                 <a
                   className="c6"
                   href="http://github.com/fake/preloaded-repo/network/members"
+                  rel="noreferrer noopener"
+                  target="_blank"
                   title="See forkers"
                 >
                   100324234
@@ -634,6 +654,8 @@ exports[`Renders preloaded data correctly. 1`] = `
               <a
                 className="c2"
                 href="http://github.com/fake/preloaded-repo#readme"
+                rel="noreferrer noopener"
+                target="_blank"
               >
                 Read More
               </a>
@@ -649,6 +671,8 @@ exports[`Renders preloaded data correctly. 1`] = `
                 <a
                   className="c2"
                   href="https://fake.dev/"
+                  rel="noreferrer noopener"
+                  target="_blank"
                 >
                   https://fake.dev/
                 </a>
@@ -674,18 +698,18 @@ exports[`Renders preloaded data correctly. 1`] = `
               2017-10-19
             </div>
           </styled.div>
-          <styled.div
+          <styled.a
             href="http://github.com/fake/preloaded-repo/zipball/master"
             title="Get repository"
           >
-            <div
+            <a
               className="c11"
               href="http://github.com/fake/preloaded-repo/zipball/master"
               title="Get repository"
             >
               Download as zip
-            </div>
-          </styled.div>
+            </a>
+          </styled.a>
         </div>
       </styled.div>
     </div>
