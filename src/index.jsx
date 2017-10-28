@@ -54,7 +54,10 @@ const GitHubStats = styled.div`
 }
 `;
 
-const Link = styled.a`
+const Link = styled.a.attrs({
+  target: '_blank',
+  rel: 'noreferrer noopener',
+})`
 &&& {
   color: #4183c4;
   border: 0;
@@ -149,7 +152,7 @@ const Updated = styled.div`
 }
 `;
 
-const DownloadButton = styled.div`
+const DownloadButton = styled.a`
 &&& {
   float: right;
   position: absolute;
@@ -161,6 +164,7 @@ const DownloadButton = styled.div`
   color: #666;
   font-weight: bold;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+  text-decoration: none;
   padding: 0 10px;
   border: 1px solid #ddd;
   border-bottom-color: #bbb;
